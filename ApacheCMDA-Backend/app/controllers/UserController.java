@@ -40,7 +40,7 @@ import java.util.*;
  */
 @Named
 @Singleton
-public class UserController extends Controller {
+public class UserController extends ServerController {
 
 	private final UserRepository userRepository;
 
@@ -54,7 +54,7 @@ public class UserController extends Controller {
 	public Result userRegister() {
 		JsonNode json = request().body().asJson();
 		if (json == null) {
-			System.out.println("User not created, expecting Json data");
+			log_std("User not created, expecting Json data");
 			return Common.badRequestWrapper("User not created, expecting Json data");
 		}
 
@@ -66,22 +66,25 @@ public class UserController extends Controller {
 
 		try {
 			if (userRepository.findByEmail(email) != null) {
-				System.out.println("Email has been used: " + email);
+				log_err("Email has been used: " + email);
 				return Common.badRequestWrapper("Email has been used");
 			}
 			User user = new User(name, email, MD5Hashing(password));
 			user.setAvatar(avatar);
 			userRepository.save(user);
-			System.out.println("User saved: " + user.getId());
+			log_std("User saved: " + user.getId());
 			return created(new Gson().toJson(user.getId()));
 		} catch (PersistenceException pe) {
 			pe.printStackTrace();
-			System.out.println("User not saved: " + name);
+			log_err("User not saved: " + name);
 			return Common.badRequestWrapper("User not saved: " + name);
 		}
 	}
 
 	public Result userLogin() {
+		log_err("test error=========");
+		log_std("test stdlog ----------------");
+
 		JsonNode json = request().body().asJson();
 		if (json == null) {
 			System.out.println("Cannot check user, expecting Json data");
@@ -100,6 +103,7 @@ public class UserController extends Controller {
 			System.out.println("User is not valid");
 			return Common.badRequestWrapper("User is not valid");
 		}
+
 	}
 
 	private static String MD5Hashing(String password) {

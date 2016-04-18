@@ -1,0 +1,8 @@
+ApacheCMDA-Backend/.idea/*
+ApacheCMDA-Backend/app/controllers/UserController.java
+ApacheCMDA-Backend/logs/*
+ApacheCMDA-Backend/target/*
+ApacheCMDA-Backend/app/controllers/ServerController.java
+ApacheCMDA-Backend/app/models/ReplyIterator.java
+ApacheCMDA-Frontend/target/*
+README.md

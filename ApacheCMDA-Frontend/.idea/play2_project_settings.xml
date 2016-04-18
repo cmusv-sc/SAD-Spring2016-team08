@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Play2ExcludedModulesSettings">
+    <option name="INFO">
+      <map>
+        <entry key="ApacheCMDA-Frontend">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.2.3.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="playConf">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="sourceDir" value="$PROJECT_DIR$/conf" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="playRoutesImports">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="routesImports">
+                <list>
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="playVersion">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="version" value="2.2.3" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="sourceDirectory">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="confDir" value="$PROJECT_DIR$/app" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="twirlTemplatesImports">
+          <value>
+            <ProjectSettingsEntry />
+          </value>
+        </entry>
+        <entry key="uri">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="uri" value="$PROJECT_DIR$" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

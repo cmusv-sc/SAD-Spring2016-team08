@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApacheCMDA-Frontend.iml" filepath="$PROJECT_DIR$/ApacheCMDA-Frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apachecmda-frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/apachecmda-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apachecmda-frontend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/apachecmda-frontend-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/scala-2.10/src_managed/src_managed.iml" filepath="$PROJECT_DIR$/target/scala-2.10/src_managed/src_managed.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9034
+org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:9000
 	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
 	at play.core.server.NettyServer$$anonfun$8.apply(NettyServer.scala:129)
 	at play.core.server.NettyServer$$anonfun$8.apply(NettyServer.scala:126)
