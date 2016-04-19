@@ -6,9 +6,9 @@ A scientific workflow system is a specialized form of a workflow management syst
 Apply design pattern on this project.
 * 1. Pipe and Filter
 * 2. State
-* 3. Factory Pattern/ Abstract Factory Pattern  Done
+* 3. Factory Pattern/ Abstract Factory Pattern :  LoggerFactory
 * 4. Composite
-* 5. Template Method   Done
+* 5. Template Method : ServerController
 * 6. Iterator
 * 7. Adaptor
 * 8. Builder
