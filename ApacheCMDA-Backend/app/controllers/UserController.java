@@ -69,8 +69,15 @@ public class UserController extends ServerController {
 				log_err("Email has been used: " + email);
 				return Common.badRequestWrapper("Email has been used");
 			}
-			User user = new User(name, email, MD5Hashing(password));
-			user.setAvatar(avatar);
+
+//			User user = new User(name, email, MD5Hashing(password));
+
+			/** Add user builder to create a new user object
+			 * Created by Xin Hong
+			 */
+
+			User user = new User.UserBuilder(name, email, MD5Hashing(password)).avatar(avatar).build();
+
 			userRepository.save(user);
 			log_std("User saved: " + user.getId());
 			return created(new Gson().toJson(user.getId()));

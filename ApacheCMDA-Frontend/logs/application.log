@@ -1,24 +1,441 @@
-2016-04-18 21:30:22,839 - [INFO] - from play in pool-4-thread-3 
+2016-04-19 12:19:00,128 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-04-18 21:37:46,070 - [INFO] - from play in play-internal-execution-context-1 
+2016-04-19 12:21:49,419 - [INFO] - from play in play-internal-execution-context-1 
 datasource [jdbc:h2:file:data/db;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
 
-2016-04-18 21:37:46,330 - [INFO] - from play in play-internal-execution-context-1 
+2016-04-19 12:21:49,711 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:h2:file:data/db
 
-2016-04-18 21:37:49,235 - [INFO] - from play in play-internal-execution-context-1 
+2016-04-19 12:21:52,507 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-04-18 21:43:09,324 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
-Register Failed!
+2016-04-19 12:21:55,904 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+http://localhost:9034/users/getFriendRequests/userId/113
 
-2016-04-18 21:55:48,524 - [INFO] - from application in play-akka.actor.default-dispatcher-13 
+2016-04-19 12:21:57,328 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:22:06,867 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:22:07,406 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+http://localhost:9034/group/getGroupList/113/json
+
+2016-04-19 12:22:17,999 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:22:22,361 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:22:28,005 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:22:32,377 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/group/getGroupList/113/json
+
+2016-04-19 12:22:36,663 - [INFO] - from application in play-akka.actor.default-dispatcher-11 
+500
+
+2016-04-19 12:22:36,799 - [INFO] - from application in play-akka.actor.default-dispatcher-11 
+500
+
+2016-04-19 12:22:37,260 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:22:37,332 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:22:37,515 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+500
+
+2016-04-19 12:22:48,513 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:22:48,781 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:22:48,814 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:22:48,940 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+500
+
+2016-04-19 12:22:50,706 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/workflow/get/workflowID/1/userID/113/json
+
+2016-04-19 12:22:51,065 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:22:51,131 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:22:51,576 - [INFO] - from application in play-akka.actor.default-dispatcher-13 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:22:51,636 - [INFO] - from application in play-akka.actor.default-dispatcher-13 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:22:51,758 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+500
+
+2016-04-19 12:23:04,184 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/workflow/get/workflowID/1/userID/113/json
+
+2016-04-19 12:23:04,299 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:23:04,318 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:23:04,587 - [INFO] - from application in play-akka.actor.default-dispatcher-16 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:04,632 - [INFO] - from application in play-akka.actor.default-dispatcher-16 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:04,802 - [INFO] - from application in play-akka.actor.default-dispatcher-12 
+500
+
+2016-04-19 12:23:17,006 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+http://localhost:9034/group/getGroupList/113/json
+
+2016-04-19 12:23:17,230 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:17,250 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:17,338 - [INFO] - from application in play-akka.actor.default-dispatcher-14 
+500
+
+2016-04-19 12:23:19,606 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:23:19,820 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:19,847 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:19,914 - [INFO] - from application in play-akka.actor.default-dispatcher-17 
+500
+
+2016-04-19 12:23:21,283 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/workflow/get/workflowID/1/userID/113/json
+
+2016-04-19 12:23:21,364 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:23:21,379 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:23:21,618 - [INFO] - from application in play-akka.actor.default-dispatcher-11 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:21,651 - [INFO] - from application in play-akka.actor.default-dispatcher-11 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:21,724 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+500
+
+2016-04-19 12:23:25,765 - [INFO] - from application in play-akka.actor.default-dispatcher-11 
+http://localhost:9034/group/getGroupList/113/json
+
+2016-04-19 12:23:25,948 - [INFO] - from application in play-akka.actor.default-dispatcher-15 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:25,995 - [INFO] - from application in play-akka.actor.default-dispatcher-15 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:26,123 - [INFO] - from application in play-akka.actor.default-dispatcher-18 
+500
+
+2016-04-19 12:23:28,340 - [INFO] - from application in play-akka.actor.default-dispatcher-17 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:23:28,590 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 12:23:28,612 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 12:23:28,679 - [INFO] - from application in play-akka.actor.default-dispatcher-17 
+500
+
+2016-04-19 12:23:50,213 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
+New user created
+
+2016-04-19 12:23:59,095 - [INFO] - from application in play-akka.actor.default-dispatcher-22 
 http://localhost:9034/workflow/getTimeline/111/offset/0/json
 
-2016-04-18 21:55:48,952 - [INFO] - from application in play-akka.actor.default-dispatcher-20 
+2016-04-19 12:23:59,315 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
 http://localhost:9034/users/getFriendRequests/userId/111
 
-2016-04-18 21:55:49,052 - [INFO] - from application in play-akka.actor.default-dispatcher-20 
+2016-04-19 12:23:59,355 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
 http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:24:01,848 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:24:02,028 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:24:02,085 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:24:03,605 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:24:03,670 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:24:03,682 - [INFO] - from application in play-akka.actor.default-dispatcher-23 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:24:03,917 - [INFO] - from application in play-akka.actor.default-dispatcher-27 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:24:03,946 - [INFO] - from application in play-akka.actor.default-dispatcher-27 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:24:08,747 - [INFO] - from application in play-akka.actor.default-dispatcher-22 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:24:08,852 - [INFO] - from application in play-akka.actor.default-dispatcher-22 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:24:08,885 - [INFO] - from application in play-akka.actor.default-dispatcher-22 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 12:24:08,930 - [INFO] - from application in play-akka.actor.default-dispatcher-22 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:24:09,213 - [INFO] - from application in play-akka.actor.default-dispatcher-15 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:24:09,254 - [INFO] - from application in play-akka.actor.default-dispatcher-15 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:24:56,906 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:25:06,928 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/group/getGroupList/111/json
+
+2016-04-19 12:25:17,224 - [INFO] - from application in play-akka.actor.default-dispatcher-26 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:25:19,193 - [INFO] - from application in play-akka.actor.default-dispatcher-30 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:25:20,998 - [INFO] - from application in play-akka.actor.default-dispatcher-31 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:25:27,230 - [INFO] - from application in play-akka.actor.default-dispatcher-26 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:25:31,012 - [INFO] - from application in play-akka.actor.default-dispatcher-31 
+http://localhost:9034/group/getGroupList/111/json
+
+2016-04-19 12:25:33,113 - [INFO] - from application in play-akka.actor.default-dispatcher-26 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:25:33,149 - [INFO] - from application in play-akka.actor.default-dispatcher-26 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:25:35,087 - [INFO] - from application in play-akka.actor.default-dispatcher-31 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:25:35,292 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:25:35,328 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:25:36,520 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:25:36,861 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:25:36,944 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 12:25:36,975 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:25:37,310 - [INFO] - from application in play-akka.actor.default-dispatcher-31 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:25:37,372 - [INFO] - from application in play-akka.actor.default-dispatcher-31 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:25:45,054 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:25:45,196 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:25:45,235 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 12:25:45,249 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/Comment/getReply/2
+
+2016-04-19 12:25:45,266 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:25:45,544 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:25:45,594 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:27:47,991 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:27:58,010 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+http://localhost:9034/group/getGroupList/111/json
+
+2016-04-19 12:28:08,429 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:28:15,261 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:28:18,433 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:28:25,291 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+http://localhost:9034/group/getGroupList/111/json
+
+2016-04-19 12:28:33,649 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:28:33,682 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:28:39,649 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 12:28:40,140 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:28:40,221 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:28:41,468 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:28:41,827 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:28:41,900 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 12:28:41,994 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/Comment/getReply/2
+
+2016-04-19 12:28:42,005 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:28:42,377 - [INFO] - from application in play-akka.actor.default-dispatcher-42 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:28:42,418 - [INFO] - from application in play-akka.actor.default-dispatcher-42 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 12:28:51,862 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/workflow/get/workflowID/1/userID/111/json
+
+2016-04-19 12:28:52,015 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 12:28:52,047 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 12:28:52,058 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/Comment/getReply/2
+
+2016-04-19 12:28:52,072 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/Comment/getReply/3
+
+2016-04-19 12:28:52,083 - [INFO] - from application in play-akka.actor.default-dispatcher-41 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 12:28:52,390 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+http://localhost:9034/users/getFriendRequests/userId/111
+
+2016-04-19 12:28:52,446 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+http://localhost:9034/mail/getInbox/111/json
+
+2016-04-19 13:02:46,846 - [DEBUG] - from application in play-akka.actor.default-dispatcher-55 
+Register Failed!
+
+2016-04-19 13:03:45,483 - [INFO] - from application in play-akka.actor.default-dispatcher-64 
+http://localhost:9034/workflow/getTimeline/112/offset/0/json
+
+2016-04-19 13:03:45,795 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/users/getFriendRequests/userId/112
+
+2016-04-19 13:03:45,882 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/mail/getInbox/112/json
+
+2016-04-19 13:03:49,182 - [INFO] - from application in play-akka.actor.default-dispatcher-64 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 13:03:49,441 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/users/getFriendRequests/userId/112
+
+2016-04-19 13:03:49,475 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/mail/getInbox/112/json
+
+2016-04-19 13:03:51,544 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/workflow/get/workflowID/1/userID/112/json
+
+2016-04-19 13:03:51,785 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/workflow/getComments/1
+
+2016-04-19 13:03:51,837 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/Comment/getReply/1
+
+2016-04-19 13:03:51,873 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/Comment/getReply/2
+
+2016-04-19 13:03:51,887 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/Comment/getReply/3
+
+2016-04-19 13:03:51,904 - [INFO] - from application in play-akka.actor.default-dispatcher-65 
+http://localhost:9034/suggestion/getSuggestionForWorkflow/1
+
+2016-04-19 13:03:52,171 - [INFO] - from application in play-akka.actor.default-dispatcher-62 
+http://localhost:9034/users/getFriendRequests/userId/112
+
+2016-04-19 13:03:52,207 - [INFO] - from application in play-akka.actor.default-dispatcher-62 
+http://localhost:9034/mail/getInbox/112/json
+
+2016-04-19 13:06:26,797 - [DEBUG] - from application in play-akka.actor.default-dispatcher-70 
+Register Failed!
+
+2016-04-19 13:06:49,609 - [DEBUG] - from application in play-akka.actor.default-dispatcher-72 
+Auth failed!
+
+2016-04-19 13:07:01,324 - [INFO] - from application in play-akka.actor.default-dispatcher-77 
+http://localhost:9034/workflow/getTimeline/113/offset/0/json
+
+2016-04-19 13:07:01,605 - [INFO] - from application in play-akka.actor.default-dispatcher-74 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 13:07:01,688 - [INFO] - from application in play-akka.actor.default-dispatcher-74 
+http://localhost:9034/mail/getInbox/113/json
+
+2016-04-19 13:07:03,451 - [INFO] - from application in play-akka.actor.default-dispatcher-78 
+http://localhost:9034/workflow/getPublicWorkflow/json
+
+2016-04-19 13:07:03,704 - [INFO] - from application in play-akka.actor.default-dispatcher-73 
+http://localhost:9034/users/getFriendRequests/userId/113
+
+2016-04-19 13:07:03,741 - [INFO] - from application in play-akka.actor.default-dispatcher-73 
+http://localhost:9034/mail/getInbox/113/json
 

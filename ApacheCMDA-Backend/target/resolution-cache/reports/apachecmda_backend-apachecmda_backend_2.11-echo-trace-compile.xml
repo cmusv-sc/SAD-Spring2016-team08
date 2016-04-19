@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="echo-trace-compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar, jacoco"
-		date="20160418035855"/>
+		date="20160419085039"/>
 	<dependencies>
 		<module organisation="commons-io" name="commons-io">
 			<revision name="2.4" status="release" pubdate="20120612222206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="81">

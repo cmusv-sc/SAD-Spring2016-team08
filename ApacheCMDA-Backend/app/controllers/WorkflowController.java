@@ -17,6 +17,7 @@
  */
 package controllers;
 
+import adapter.TextAdapter;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -457,7 +458,16 @@ public class WorkflowController extends Controller {
                 System.out.println("Cannot find workflow with given workflow id");
                 return Common.badRequestWrapper("Cannot find workflow with given workflow id");
             }
-            Comment comment = new Comment(user, timestamp, content, commentImage);
+
+            /**
+             * Add text adapter here to change comment content format.
+             * Created by Xin Hong
+             */
+            TextAdapter textAdapter = new TextAdapter("line");
+            String newContent = textAdapter.formatText("line", content);
+
+
+            Comment comment = new Comment(user, timestamp, newContent, commentImage);
 
             Comment savedComment = commentRepository.save(comment);
             List<Comment> list = workflow.getComments();

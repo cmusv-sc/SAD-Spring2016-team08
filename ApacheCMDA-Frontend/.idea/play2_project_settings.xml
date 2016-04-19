@@ -13,7 +13,7 @@
         <entry key="playConf">
           <value>
             <ProjectSettingsEntry>
-              <option name="sourceDir" value="$PROJECT_DIR$/conf" />
+              <option name="confDir" value="$PROJECT_DIR$/conf" />
             </ProjectSettingsEntry>
           </value>
         </entry>
@@ -38,7 +38,7 @@
         <entry key="sourceDirectory">
           <value>
             <ProjectSettingsEntry>
-              <option name="confDir" value="$PROJECT_DIR$/app" />
+              <option name="sourceDir" value="$PROJECT_DIR$/app" />
             </ProjectSettingsEntry>
           </value>
         </entry>

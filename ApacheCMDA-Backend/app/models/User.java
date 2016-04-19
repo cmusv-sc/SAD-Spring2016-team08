@@ -65,6 +65,14 @@ public class User {
 	public User() {
 	}
 
+	private User(UserBuilder builder) {
+		this.userName = builder.userName;
+		this.email = builder.email;
+		this.password = builder.password;
+		this.phoneNumber = builder.phoneNumber;
+		this.avatar = builder.avatar;
+	}
+
 	public User(String userName, String email, String password) {
 		this.userName = userName;
 		this.email = email;
@@ -153,6 +161,42 @@ public class User {
 
 	public void setAvatar(String avatar) {
 		this.avatar = avatar;
+	}
+
+
+	public static class UserBuilder {
+		private String userName;
+		private String email;
+		private String password;
+		private String phoneNumber;
+		private String avatar;
+
+		public UserBuilder(String userName, String email, String password) {
+			this.userName = userName;
+			this.email = email;
+			this.password = password;
+		}
+
+
+		public UserBuilder email(String email) {
+			this.email = email;
+			return this;
+		}
+
+		public UserBuilder phoneNumber(String phoneNumber) {
+			this.phoneNumber = phoneNumber;
+			return this;
+		}
+
+		public UserBuilder avatar(String avatar) {
+			this.avatar = avatar;
+			return this;
+		}
+
+		public User build() {
+			return new User(this);
+		}
+
 	}
 
 /*	public String getMiddleInitial() {

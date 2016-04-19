@@ -1,5 +1,6 @@
 package controllers;
 
+import adapter.TextAdapter;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -61,6 +62,7 @@ public class CommentController extends Controller {
             System.out.println("Cannot find toUser!");
             return Common.badRequestWrapper("Cannot find toUser!");
         }
+
 
         Reply reply = new Reply(fromUser, toUser, timestamp, content);
         Reply savedReply = replyRepository.save(reply);
