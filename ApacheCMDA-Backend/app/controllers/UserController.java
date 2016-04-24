@@ -201,9 +201,18 @@ public class UserController extends ServerController {
 	public Result getAllUsers(String format) {
 		Iterable<User> userIterable = userRepository.findAll();
 		List<User> userList = new ArrayList<User>();
-		for (User user : userIterable) {
-			userList.add(user);
-		}
+
+        //Iterator design pattern
+		Iterator iterator = userIterable.iterator();
+		while(iterator.hasNext()) {
+            User user = (User)iterator.next();
+            userList.add(user);
+        }
+
+		//for (User user : userIterable) {
+		//	userList.add(user);
+		//}
+
 		String result = new String();
 		if (format.equals("json")) {
 			result = new GsonBuilder().excludeFieldsWithModifiers(Modifier.PROTECTED).create().toJson(userList);
@@ -317,11 +326,22 @@ public class UserController extends ServerController {
             }
 
 			Set<User> followers = followee.getFollowers();
-			for(User u : followers) {
-				if(u.getId()==user.getId()) {
-					followers.remove(u);
-				}
-			}
+
+
+			//Iterator design pattern
+            Iterator iterator = followers.iterator();
+            while(iterator.hasNext()) {
+                User u = (User)iterator.next();
+                if(u.getId() == user.getId()) {
+                    iterator.remove();
+                }
+            }
+
+			//for(User u : followers) {
+			//	if(u.getId()==user.getId()) {
+			//		followers.remove(u);
+			//	}
+			//}
 			followee.setFollowers(followers);
 
 			userRepository.save(followee);
@@ -628,11 +648,26 @@ public class UserController extends ServerController {
 		}
 
 		Set<User> friends = user.getFriends();
-		for(User f: friends) {
-			if(f.getId()==friend.getId()) {
-				friends.remove(f);
-			}
-		}
+
+
+
+
+		//for(User f: friends) {
+		//	if(f.getId()==friend.getId()) {
+		//		friends.remove(f);
+		//	}
+		//}
+
+		//Iterator design pattern
+		Iterator iterator = friends.iterator();
+		while(iterator.hasNext()) {
+            User f = (User)iterator.next();
+            if(f.getId() == friend.getId()) {
+                iterator.remove();
+            }
+        }
+
+
 		user.setFriends(friends);
 		userRepository.save(user);
 		return okResponse("Friend deleted");
