@@ -2,115 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67b73c7-3a95-477b-b19b-63fd09ae7a7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/CategoryFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/ImgFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/InputFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/OutputFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/Pipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/StatusFilter" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/UrlFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/VisibilityFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/models/TypeMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/UserController.class" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/WorkflowController$1.class" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/WorkflowController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/WorkflowController.class" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/classes/controllers/WorkflowController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/coffeescript/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/coffeescript/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/jshint/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/jshint/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/less/$global/streams/copy-resource/op-cache" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/less/$global/streams/copy-resource/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/data/db.h2.db" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/data/db.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/inputs" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/UserController.java" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/logs/application.log" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/default/apachecmda-backend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/default/apachecmda-backend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/default/apachecmda-backend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/default/apachecmda-backend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-compile-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-compile.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-docs.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-optional.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-plugin.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-pom.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-provided.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-runtime.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-scala-tool.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-sources.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-test-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-test.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/resolution-cache/reports/default-apachecmda-backend-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/apachecmda_backend/apachecmda_backend_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/apachecmda_backend/apachecmda_backend_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/apachecmda_backend/apachecmda_backend_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/apachecmda_backend/apachecmda_backend_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-compile.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-docs.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-sigar.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-sigar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-trace-compile.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-trace-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-trace-test.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-trace-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-weave.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-echo-weave.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-jacoco.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-jacoco.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-optional.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-plugin.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-pom.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-provided.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-runtime.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-sources.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-test.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/cache/root/compile/play_instrumentation" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/cache/root/compile/play_instrumentation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/routes_reverseRouting.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/src_managed/main/routes_routing.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/twirl/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/twirl/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/scala-2.11/twirl/main/views/html/main.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/compile/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/compile/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/compile/run/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Backend/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/logs/application.log" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/default/apachecmda-frontend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/default/apachecmda-frontend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/default/apachecmda-frontend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/default/apachecmda-frontend-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-compile-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-compile.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-docs.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-optional.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-plugin.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-pom.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-provided.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-runtime.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-scala-tool.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-sources.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-test-internal.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-test.xml" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/resolution-cache/reports/default-apachecmda-frontend-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/ivyConfiguration/$global/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/ivyConfiguration/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/$global/update/$global/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/compile/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/compile/exportedProducts/$global/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/dependencyClasspath/$global/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/exportedProducts/$global/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/fullClasspath/$global/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/fullClasspath/$global/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/internalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/ApacheCMDA-Frontend/project/target/streams/runtime/internalDependencyClasspath/$global/export" />
     </list>
     <ignored path="SADteam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/IFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImgFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/ImgFilter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -176,6 +58,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkflowController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -221,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VisibilityFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VisibilityFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/VisibilityFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -242,7 +134,6 @@
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/models/TypeMsg.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/Url.java" />
-        <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/CategoryFilter.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/CodeFilter.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/DescFilter.java" />
@@ -255,6 +146,7 @@
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/TitleFilter.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/UrlFilter.java" />
         <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/VisibilityFilter.java" />
+        <option value="$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java" />
       </list>
     </option>
   </component>
@@ -509,12 +401,12 @@
       <updated>1461391253840</updated>
       <workItem from="1462252458636" duration="3594000" />
       <workItem from="1462257905316" duration="799000" />
-      <workItem from="1462259266065" duration="1850000" />
+      <workItem from="1462259266065" duration="2007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6243000" />
+    <option name="totallyTimeSpent" value="6400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="743" extended-state="0" />
@@ -815,14 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/CategoryFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -835,14 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/DescFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -887,14 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/StatusFilter">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/TitleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -915,6 +783,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/StatusFilter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/filters/DescFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApacheCMDA-Backend/app/controllers/WorkflowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding />
         </state>
       </provider>

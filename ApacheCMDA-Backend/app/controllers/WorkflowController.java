@@ -189,19 +189,6 @@ public class WorkflowController extends Controller {
 
         Pipeline pipeline = new Pipeline();
 
-        System.out.println("debug pipeline 1");
-/*
-        pipeline.register(new TitleFilter(json.get("wfTitle").asText()))
-                .register(new CodeFilter(json.get("wfCode").asText()))
-                .register(new DescFilter(json.get("wfDesc").asText()))
-                .register(new ImgFilter(json.get("wfImg").asText()))
-                .register(new CategoryFilter(json.get("wfCategory").asText()))
-                .register(new VisibilityFilter(json.get("wfVisibility").asText()))
-                .register(new UrlFilter(json.get("wfUrl").asText()))
-                .register(new InputFilter(json.get("wfInput").asText()))
-                .register(new OutputFilter(json.get("wfOutput").asText()));
-                //.register(new StatusFilter(json.get("wfStatus").asText()));
-*/
 
         pipeline.register(new TitleFilter(json))
                         .register(new CodeFilter(json))
@@ -213,18 +200,8 @@ public class WorkflowController extends Controller {
                         .register(new InputFilter(json))
                         .register(new OutputFilter(json));
 
-        System.out.println("debug pipeline 2");
-
 
         pipeline.execute(workflow);
-        /*
-        if (json.get("wfCode")!=null){
-            pipeline.register(new CodeFilter(json.get("wfCode").asText()));
-            pipeline.execute(workflow);
-        }
-        */
-
-        System.out.println("debug pipeline 3");
 
 
         Date cur = new Date();
