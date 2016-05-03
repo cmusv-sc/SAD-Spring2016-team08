@@ -1,5 +1,5 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/sharedFolder/ApacheCMDA-Backend/conf/application.conf,/sharedFolder/ApacheCMDA-Backend/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/sharedFolder/ApacheCMDA-Backend/conf/META-INF,/sharedFolder/ApacheCMDA-Backend/target/scala-2.11/classes/META-INF)[0m
-[0m[[0mdebug[0m] [0m	(/sharedFolder/ApacheCMDA-Backend/conf/routes,/sharedFolder/ApacheCMDA-Backend/target/scala-2.11/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/sharedFolder/ApacheCMDA-Backend/conf/META-INF/persistence.xml,/sharedFolder/ApacheCMDA-Backend/target/scala-2.11/classes/META-INF/persistence.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/sadteam/ApacheCMDA-Backend/conf/application.conf,/home/sadteam/ApacheCMDA-Backend/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/sadteam/ApacheCMDA-Backend/conf/META-INF,/home/sadteam/ApacheCMDA-Backend/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/sadteam/ApacheCMDA-Backend/conf/routes,/home/sadteam/ApacheCMDA-Backend/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/sadteam/ApacheCMDA-Backend/conf/META-INF/persistence.xml,/home/sadteam/ApacheCMDA-Backend/target/scala-2.11/classes/META-INF/persistence.xml)[0m

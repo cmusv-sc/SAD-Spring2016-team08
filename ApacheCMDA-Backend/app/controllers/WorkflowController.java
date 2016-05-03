@@ -22,12 +22,15 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import models.*;
+import filters.*;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import play.mvc.Controller;
 import play.mvc.Http;
 import play.mvc.Result;
 import util.Common;
+
 
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -168,8 +171,10 @@ public class WorkflowController extends Controller {
             String error = new Gson().toJson(map);
             return ok(error);
         }
-
+        if (json.get("wfStatus")!=null) workflow.setStatus(json.get("wfStatus").asText());
         System.out.println("have access");
+
+        /*
         if (json.get("wfTitle")!=null) workflow.setWfTitle(json.get("wfTitle").asText());
         if (json.get("wfCode")!=null) workflow.setWfCode(json.get("wfCode").asText());
         if (json.get("wfDesc")!=null)  workflow.setWfDesc(json.get("wfDesc").asText());
@@ -180,6 +185,48 @@ public class WorkflowController extends Controller {
         if (json.get("wfInput")!=null) workflow.setWfInput(json.get("wfInput").asText());
         if (json.get("wfOutput")!=null) workflow.setWfOutput(json.get("wfOutput").asText());
         if (json.get("wfStatus")!=null) workflow.setStatus(json.get("wfStatus").asText());
+        */
+
+        Pipeline pipeline = new Pipeline();
+
+        System.out.println("debug pipeline 1");
+/*
+        pipeline.register(new TitleFilter(json.get("wfTitle").asText()))
+                .register(new CodeFilter(json.get("wfCode").asText()))
+                .register(new DescFilter(json.get("wfDesc").asText()))
+                .register(new ImgFilter(json.get("wfImg").asText()))
+                .register(new CategoryFilter(json.get("wfCategory").asText()))
+                .register(new VisibilityFilter(json.get("wfVisibility").asText()))
+                .register(new UrlFilter(json.get("wfUrl").asText()))
+                .register(new InputFilter(json.get("wfInput").asText()))
+                .register(new OutputFilter(json.get("wfOutput").asText()));
+                //.register(new StatusFilter(json.get("wfStatus").asText()));
+*/
+
+        pipeline.register(new TitleFilter(json))
+                        .register(new CodeFilter(json))
+                        .register(new DescFilter(json))
+                        .register(new ImgFilter(json))
+                        .register(new CategoryFilter(json))
+                        .register(new VisibilityFilter(json))
+                        .register(new UrlFilter(json))
+                        .register(new InputFilter(json))
+                        .register(new OutputFilter(json));
+
+        System.out.println("debug pipeline 2");
+
+
+        pipeline.execute(workflow);
+        /*
+        if (json.get("wfCode")!=null){
+            pipeline.register(new CodeFilter(json.get("wfCode").asText()));
+            pipeline.execute(workflow);
+        }
+        */
+
+        System.out.println("debug pipeline 3");
+
+
         Date cur = new Date();
         workflow.setWfDate(cur);
 
@@ -187,6 +234,9 @@ public class WorkflowController extends Controller {
         //    workflow.getWfContributors().add(user);
         //}
         workflowRepository.save(workflow);
+
+        System.out.println("debug pipeline 4");
+
         return created(new Gson().toJson("success"));
     }
 

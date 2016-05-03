@@ -649,9 +649,6 @@ public class UserController extends ServerController {
 
 		Set<User> friends = user.getFriends();
 
-
-
-
 		//for(User f: friends) {
 		//	if(f.getId()==friend.getId()) {
 		//		friends.remove(f);

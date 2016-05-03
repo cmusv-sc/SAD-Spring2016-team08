@@ -1,0 +1,43 @@
+//StatusFilter.java
+
+package filters;
+import models.*;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+public class StatusFilter implements IFilter{
+
+	String type = "status", msg;
+
+
+    public StatusFilter(JsonNode json) {
+        if(json.get("wfStatus") != null)
+            this.msg = json.get("wfStatus").asText();
+        else
+            this.msg = null;
+    }
+
+
+	@Override
+	public TypeMsg Execute() {
+		return new TypeMsg(type, msg);
+	}
+
+	@Override
+	public boolean isValid() {
+		return msg != null;
+	}
+
+	@Override
+	public String getType() {
+		return this.type;
+	}
+
+	@Override
+	public String getMsg() {
+		return this.msg;
+	}
+
+
+}
