@@ -1,0 +1,15 @@
+server:
+    port: ${SERVICE_PORT:8050}
+
+spring:
+    application:
+        name: book
+eureka:
+    client:
+        serviceUrl:
+        defaultZone: http://${EUREKA_IP:localhost}:${EUREKA_PORT:8761}/eureka/
+    instance:
+        ip-address: ${HOST_IP:localhost}
+        prefer-ip-address: true
+        metadataMap:
+            instanceId: ${spring.application.name}:${SERVICE_PORT:8050}
