@@ -20,7 +20,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class User {
+public class User implements Cloneable{ // the Cloneable interface is for Prototype implmentation
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
